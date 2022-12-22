@@ -63,7 +63,7 @@ class _HomeState extends State<Home> {
               },
             );
           } else if (snapshot.hasError) {
-            print("Has Error : ${snapshot.hasError}");
+            print("Has Error : ${snapshot.error}");
             return Text('Error!!!');
           } else {
             print("Loading...");
